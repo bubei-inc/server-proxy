@@ -1,0 +1,6 @@
+server:
+  transfer-path: ws://127.0.0.1:9999/transfer/ws
+  validate-path: /rundeck/agent/api/validate
+  proxy-path: /proxy/ws
+  proxy-port: :8888
+  validate-site: http://localhost:8016/agent/api/validate
